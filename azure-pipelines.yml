@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: MySelfHostedAgentPool # Replace with the name of your self-hosted agent pool
+  name: Default # Replace with the name of your self-hosted agent pool
 steps:
 - script: echo Hello, world!
 - script: echo Add other steps here
