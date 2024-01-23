@@ -18,6 +18,8 @@ jobs:
       - name: Install dependencies
         run: |
           pip install dbt-fabric
+      - name: print dbt and python version
+        run: |
           dbt --version
           python --version
       - run: echo "🍏 This job's status is ${{ job.status }}."
