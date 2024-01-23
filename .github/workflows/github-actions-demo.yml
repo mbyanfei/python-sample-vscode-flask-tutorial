@@ -17,5 +17,5 @@ jobs:
           ls ${{ github.workspace }}
       - name: Install dependencies
         run: |
-          pip install dbt
+          pip install dbt-fabric
       - run: echo "🍏 This job's status is ${{ job.status }}."
