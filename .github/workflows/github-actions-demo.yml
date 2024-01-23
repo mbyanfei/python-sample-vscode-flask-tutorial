@@ -19,4 +19,5 @@ jobs:
         run: |
           pip install dbt-fabric
           dbt --version
+          python --version
       - run: echo "🍏 This job's status is ${{ job.status }}."
